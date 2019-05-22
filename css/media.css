@@ -1,0 +1,135 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.search-custom-btn {
+		margin-top: 10px;
+	}
+	.common-header h2 {
+		font-size: 16px;
+	}
+	.for-color-white h2 {
+		margin-bottom: 10px;
+	}
+	.dropdown-item {
+		width: 70px;
+		font-size: 12px;
+	}
+	.custom-dtoggle {
+		font-size: 11px;
+	}
+	.card {
+		margin-bottom: 10px;
+	}
+	.blog-content h3 {
+		margin-top: 10px;
+	}
+	.footer-widget-content ul li {
+		margin-bottom: 0px;
+	}
+	.footer-widget-content ul li a {
+		font-size: 12px;
+	}
+	.footer-text p {
+		font-size: 10px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.for-color-white h2 {
+		margin-bottom: 20px;
+	}
+	.dropdown-item {
+		width: 250px;
+		font-size: 12px;
+	}
+	.search-custom-btn {
+		margin-top: 10px;
+	}
+	.common-header h2 {
+		font-size: 24px;
+	}
+	.card {
+		margin-bottom: 20px;
+	}
+	.blog-content h3 {
+		margin-top: 10px;
+	}
+	.footer-widget-content ul li {
+		margin-bottom: 0px;
+	}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.for-color-white h2 {
+		margin-bottom: 20px;
+	}
+	.dropdown-item {
+		width: 164px;
+		font-size: 12px;
+	}
+	.common-header h2 {
+		font-size: 24px;
+	}
+	.over-image-title {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
+	.over-image-title h3 {
+		font-size: 10px;
+	}
+	.card h4 {
+		font-size: 12px;
+	}
+	.card h5 {
+		font-size: 12px;
+	}
+	.card h6 {
+		font-size: 8px;
+		line-height: 1.2!important;
+	}
+	.card p {
+		font-size: 10px;
+	}
+	.btn-custom {
+		font-size: 10px;
+	}
+	.view-more-custom-btn {
+		font-size: 14px;
+	}
+	.overlay-text p {
+		font-size: 12px;
+	}
+	.overlay-text i {
+		font-size: 20px;
+	}
+	.overlay-text h6 {
+		font-size: 15px;
+	}
+	.blog-content ul li span {
+		font-size: 10px;
+	}
+	.blog-content p {
+		font-size: 11px;
+	}
+	.footer-widget-content ul li a {
+		font-size: 12px;
+	}
+	.footer-text p {
+		font-size: 9px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.dropdown-item {
+		width: 164px;
+		font-size: 12px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
