@@ -3,10 +3,10 @@
 	.search-custom-btn {
 		margin-top: 10px;
 	}
-	.common-header h2 {
+	.common-header a {
 		font-size: 16px;
 	}
-	.for-color-white h2 {
+	.for-color-white {
 		margin-bottom: 10px;
 	}
 	.dropdown-item {
@@ -19,7 +19,7 @@
 	.card {
 		margin-bottom: 10px;
 	}
-	.blog-content h3 {
+	.blog-content h3 a {
 		margin-top: 10px;
 	}
 	.footer-widget-content ul li {
@@ -35,8 +35,8 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	.for-color-white h2 {
-		margin-bottom: 20px;
+	.for-color-white {
+		margin-bottom: 10px;
 	}
 	.dropdown-item {
 		width: 250px;
@@ -51,7 +51,7 @@
 	.card {
 		margin-bottom: 20px;
 	}
-	.blog-content h3 {
+	.blog-content h3 a {
 		margin-top: 10px;
 	}
 	.footer-widget-content ul li {
@@ -71,6 +71,9 @@
 	.common-header h2 {
 		font-size: 24px;
 	}
+	.for-color-white {
+		margin-bottom: 10px;
+	}
 	.over-image-title {
 		position: absolute;
 		right: 20px;
@@ -79,7 +82,7 @@
 	.over-image-title h3 {
 		font-size: 10px;
 	}
-	.card h4 {
+	.card-title {
 		font-size: 12px;
 	}
 	.card h5 {
@@ -107,7 +110,7 @@
 	.overlay-text h6 {
 		font-size: 15px;
 	}
-	.blog-content ul li span {
+	.blog-content ul li span a {
 		font-size: 10px;
 	}
 	.blog-content p {

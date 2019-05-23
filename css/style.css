@@ -47,14 +47,19 @@ header {
 	color: #FFF;
 	padding: 50px 0;
 }
-.common-header h2 {
+.common-header {
+	margin-bottom: 50px;
+}
+.common-header a {
 	color: #2E3257;
 	font-weight: 600;
 	text-decoration: underline;
-	padding-bottom: 50px;
 	font-size: 26px;
 }
-.for-color-white h2 {
+.for-color-white {
+	margin-bottom: 0;
+}
+.for-color-white a {
 	color: #FFF;
 	margin: 0;
 	padding: 0;
@@ -167,18 +172,19 @@ header {
 	position: absolute;
 	right: 25px;
 	top: 25px;
-	padding: 5px 10px;
+	padding: 3px 8px;
 	background-color: #FFF;
-	border-radius: 5px;
+	border-radius: 3px;
 	text-transform: uppercase;
 }
-.over-image-title h3 {
+.over-image-title a {
 	font-size: 12px;
 	font-weight: 700;
+	color: #000;
 	padding: 0;
 	margin: 0;
 }
-.card h4 {
+.card-title {
 	color: #2E3257;
 	font-weight: 700;
 	font-size: 16px;
@@ -285,13 +291,13 @@ header {
 #holiday-info {
 	padding: 50px 0;
 }
-.blog-content h3 {
+.blog-content h3 a {
 	font-size: 18px;
 	font-weight: 700;
 	color: #2E3257;
 	margin-bottom: 10px;
 }
-.blog-content ul li span {
+.blog-content ul li span a {
 	background-color: #020959;
 	font-size: 12px;
 	font-weight: 400;
